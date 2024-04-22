@@ -18,7 +18,7 @@ Simple and easy to use IPv4 Port scanner created using python3 and the nmap libr
 
 <br />
 
-<h2>Example:</h2>
+<h2>Code with Example:</h2>
 
 <p align="center">
 <br/>
