@@ -5,6 +5,7 @@ Simple and easy to use IPv4 Port scanner created using python3 and the nmap libr
 
 `pip install python-nmap`
 
+Warning: Always obtain proper authorization before performing any scanning activities on networks you do not own or administer.
 <br />
 
 
