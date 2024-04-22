@@ -9,6 +9,7 @@ Simple and easy to use IPv4 Port scanner created using python3 and the nmap libr
 
 - <b>Sublime Text Editor</b>
 - <b>Python3</b>
+- <b>nmap</b>
 - <b>Command Prompt</b>
 
 <h2>Environments Used </h2>
@@ -20,10 +21,9 @@ Simple and easy to use IPv4 Port scanner created using python3 and the nmap libr
 <h2>Example:</h2>
 
 <p align="center">
-Example 1: <br/>
-<img src="https://i.imgur.com/tqLWapQ.png" height="80%" width="80%" alt="Web Attacks "/>
-<img src="https://i.imgur.com/aME2u4h.png" height="80%" width="80%" alt="Web Attacks "/>
+<br/>
+<img src="https://i.imgur.com/9rctO2b.png" height="80%" width="80%" alt="Port Scan"/>
+<img src="https://i.imgur.com/IiFRvU6.png" height="80%" width="80%" alt="Port Scan"/>
 <br />
-
-Beginning at line 145, evidence suggests an SQL injection attack originating from IP address 192.168.31.167. This is indicated by the presence of common SQL terms such as 'UNION', 'SELECT' and '1=1'. Regrettably, the attack seems to have succeeded, as evidenced by the successful HTTP response status code and a noticeable increase in response size.
+As you can see, scanning my local router shows that DNS, HTTP, and HTTPS ports are currently open. 
 <br />
