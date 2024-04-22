@@ -28,5 +28,5 @@ Simple and easy to use IPv4 Port scanner created using python3 and the nmap libr
 <img src="https://i.imgur.com/zOPB6OD.png" height="80%" width="80%" alt="Port Scan"/>
 <img src="https://i.imgur.com/IiFRvU6.png" height="80%" width="80%" alt="Port Scan"/>
 <br />
-As you can see, scanning my local router shows that DNS, HTTP, and HTTPS ports are currently open. 
+Scanning my local router shows that DNS, HTTP, and HTTPS ports are currently open. Warning: Always obtain proper authorization before performing any scanning activities on networks you do not own or administer.
 <br />
