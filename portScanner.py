@@ -16,6 +16,7 @@ def main():
     while True: 
         try:
             print("Welcome to IPv4 Port Scanner by Chris Rymer!")
+            print("Warning: Always obtain proper authorization before performing any scanning activities on networks you do not own or administer.")
             target = input("Enter IPv4 Address to scan:")
             startPort = int(input("Input starting port:"))
             endPort = int(input("Input ending port:"))
