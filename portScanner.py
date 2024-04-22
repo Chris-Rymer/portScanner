@@ -1,6 +1,7 @@
-
+#Import nmap library
 import nmap
 
+#Function that will scan target IP with nmap through range of ports specified by user and print results. 
 def portScanner(target, ports):
     nm = nmap.PortScanner()
     nm.scan(target, ','.join(map(str, ports)))
@@ -10,7 +11,7 @@ def portScanner(target, ports):
             state = nm[host]['tcp'][port]['state']
             print(f"Port {port} is {state}")
     
-
+#Main function that will ask user for IP and port range to scan. 
 def main():
     while True: 
         try:
@@ -24,5 +25,6 @@ def main():
         except ValueError:
             print("Invalid input. Please enter a valid number.")
 
+#Does not run "main" function if imported into another program. 
 if __name__ == "__main__":
     main()
